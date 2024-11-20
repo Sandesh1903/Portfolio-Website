@@ -1,0 +1,88 @@
+.certifications-section {
+  padding: 40px 20px;
+  /* background-color: #24243e; */
+  background-color: #121230;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.certifications-section-name {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.certifications-section h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #ee1c74;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Parent container to hold both lists side by side */
+.certifications-container {
+  display: flex;
+  justify-content: space-between; /* Adjusts space between the lists */
+  gap: 20px; /* Space between the two lists */
+  flex-wrap: wrap; /* Ensures that lists wrap if the screen is too narrow */
+}
+
+.certifications-list,
+.certifications-list1 {
+  width: 48%; /* Make each list take half the width */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px;
+}
+
+.certification-item {
+  background-color: #252529;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; /* Make the items fill the available width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.certification-item h3 {
+  font-size: 1.5rem;
+}
+
+.certification-item h4 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.certification-item p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.certification-item a {
+  color: #ff6f61;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.certification-item a:hover {
+  color: #ff3b30;
+}
+
+.certification-item:hover {
+  transform: scale(1.05);
+}
+
+.certification h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #ee1c74;
+  display: block;
+  margin: 10px auto;
+}

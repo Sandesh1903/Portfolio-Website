@@ -1,0 +1,70 @@
+/* Typewriter effect */
+.typewriter {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid rgba(255, 255, 255, 0.75); /* Blinking cursor */
+  width: auto; /* Adjust width dynamically based on content */
+  display: inline-block;
+  padding-right: 3px; /* Bring the cursor closer */
+  animation: blink-caret 0.75s step-end infinite; /* Blinking caret */
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Other existing styles for the home page */
+.home {
+  background: linear-gradient(135deg, #2c2c54, #24243e);
+  padding: 50px 20px;
+  /* text-align: center; */
+  height: 655px;
+}
+
+.home-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.download-cv {
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 50px;
+  background-color: #ee1c74;
+  border: 2px solid #ee1c74;
+  transition: all 0.3s ease;
+}
+
+.download-cv:hover {
+  background-color: transparent;
+  color: #ee1c74;
+}
+
+.social-icons {
+  margin-top: 25px;
+  display: flex;
+  /* justify-content: center; */
+  gap: 15px;
+}
+
+.social-icons svg {
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons svg:hover {
+  color: #ee1c74;
+}
+
+.typewriter-container {
+  padding-bottom: 0.5px;
+}

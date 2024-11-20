@@ -1,0 +1,32 @@
+/* About Styles */
+.about {
+    /* background-color: #1a1a1d; */
+    background-color: #121230;
+    padding: 50px 20px;
+    text-align: center;
+    /* height: 1000px; */
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .about h2::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #ee1c74;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    font-size: 1rem;
+    color: #bbb;
+  }
+  

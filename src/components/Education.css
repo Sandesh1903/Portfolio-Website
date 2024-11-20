@@ -1,0 +1,67 @@
+
+.education-section {
+  padding: 40px 20px;
+  /* background-color: #24243e;  */
+  background-color: #121230;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.education-section h2 {
+  font-size: 2.5rem; 
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.education-section h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #ee1c74;
+  display: block;
+  margin: 10px auto;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+}
+
+.education-item {
+  background-color: #252529; /* Match the background color with certification items */
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+
+.education-item h3 {
+  font-size: 1.5rem; 
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.education-item p {
+  font-size: 1rem; 
+  color: #bbb;
+}
+
+.education-item .education-date {
+  font-size: 1rem; 
+  font-style: italic;
+  color: #bbb;
+}
+
+
+.education-item:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  background-color: #292b2f; 
+}
